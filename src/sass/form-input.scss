@@ -1,6 +1,7 @@
 .search {
   &__container {
-    background-color: blue;
+    background-image: url("../images/387056.jpg");
+    background-repeat: no-repeat;
   }
 
   &__form {
@@ -18,13 +19,19 @@
   }
 
   &__btn {
-    background-color: rgb(184, 192, 192);
+    background-color: rgb(255, 255, 255);
     height: 40px;
-    border-radius: 5px;
+    border-radius: 10px;
     transition: 500ms;
     &:hover {
-      background-color: #ffffff;
-      color: rgb(17, 0, 255);
+      background-color: #ded6ec;
+      color: rgb(255, 255, 255);
     }
+    margin-right: 10px;
   }
+}
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
