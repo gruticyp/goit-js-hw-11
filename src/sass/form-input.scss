@@ -19,13 +19,14 @@
   }
 
   &__btn {
+    
     background-color: rgb(255, 255, 255);
     height: 40px;
     border-radius: 10px;
     transition: 500ms;
     &:hover {
-      background-color: #ded6ec;
-      color: rgb(255, 255, 255);
+      background-color: #d5d5d5;
+      color: rgb(249, 249, 249);
     }
     margin-right: 10px;
   }
@@ -34,4 +35,8 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.photo-card {
+  margin-right: 10px;
 }
